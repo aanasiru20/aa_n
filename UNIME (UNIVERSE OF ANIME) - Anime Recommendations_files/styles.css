@@ -131,6 +131,8 @@ ul {
     font-weight: 500;
     cursor: pointer;
     transition: background-color 0.3s;
+    margin-block-end: 7px;
+    margin-right:20 px;
 }
 
 .cta-button:hover {

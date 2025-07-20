@@ -121,6 +121,89 @@ ul {
     color: #ccc;
 }
 
+/* DROP DOWN PROPERTY*/
+.dropdownbutton{
+	background-color: red;
+	color: white;
+	padding: 5px;
+	font-size: 100px;
+	border: none;
+	border-radius: 10px;
+	font-style: bold ;
+	font-family: 'Poppins', sans-serif;
+	cursor: pointer;
+    text-align: center;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+    margin-left: -4%;
+    text-align: center;
+}
+.dropdown-content{
+	display:none ;
+	color: white;
+    margin-left: -4%;	
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+	position: absolute;
+	min-width: 150px;
+    text-align: center;
+}
+.dropdown-content a{
+	color: red;
+    margin-left: -4%;		
+	text-decoration: none;
+	display: block;
+    text-align: center;
+}
+.dropdown-content a:hover{
+    background-color: white;
+    margin-left: -4%;	
+    text-align: center;
+}
+
+/* WALLPAPER PROPERTY */
+#h2{
+  font-size: 30px;
+  color: red ;
+  font-family: sans-serif;
+}
+.grid-item{
+  padding: 10px;
+}
+.image-grid{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  align-content: center;
+  
+}
+#b1{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+  align-content: center;
+}
+#a1{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+#o1{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.grid-item{
+  border-style: solid;
+  border-color: red;
+}
+
 .cta-button {
     padding: 0.8rem 2.5rem;
     background-color: #e50914;
